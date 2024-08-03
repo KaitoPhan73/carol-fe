@@ -1,18 +1,18 @@
 export const headerPaths = [
   {
     link: "/",
-    label: "HOMEPAGE",
+    label: "TRANG CHỦ",
   },
   {
     link: "/service",
-    label: "SERVICES",
+    label: "DỊCH VỤ",
   },
   {
     link: "/about",
-    label: "ABOUT",
+    label: "KHÁC",
   },
   {
     link: "/contact",
-    label: "CONTACTS",
+    label: "LIÊN HỆ",
   },
 ];

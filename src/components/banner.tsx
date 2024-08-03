@@ -49,7 +49,7 @@ export default function Banner() {
       <CarouselContent>
         {items.map((item, index) => (
           <CarouselItem key={index}>
-            <section className="bg-gray-100 dark:bg-gray-800 py-20">
+            <section className="bg-gray-50 dark:bg-gray-800 py-20">
               <div className="container mx-auto px-4 md:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                   <div className="order-2 md:order-1">
@@ -78,8 +78,8 @@ export default function Banner() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 h-16 w-16 bg-gray-100 bg-opacity-50 rounded-lg " />
-      <CarouselNext className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 h-16 w-16 bg-gray-100 bg-opacity-50 rounded-lg " />
+      {/* <CarouselPrevious className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 h-16 w-16 bg-gray-100 bg-opacity-50 rounded-lg " />
+      <CarouselNext className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 h-16 w-16 bg-gray-100 bg-opacity-50 rounded-lg " /> */}
     </Carousel>
   );
 }
